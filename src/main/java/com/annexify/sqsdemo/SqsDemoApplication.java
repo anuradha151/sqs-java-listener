@@ -15,7 +15,7 @@ import java.util.List;
 public class SqsDemoApplication implements CommandLineRunner {
 
     private final SqsClient sqsClient;
-    private final String queueUrl = "https://sqs.ap-southeast-1.amazonaws.com/593793039644/Anuradha_Test_Queue";
+    private final String queueUrl = "<Your SQS url>";
 
     public SqsDemoApplication() {
         // Initialize SQS Client
